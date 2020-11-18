@@ -3,9 +3,9 @@ import { store } from '../store';
 
 function myAction(message: string) {
   return (dispatch) => {
-    dispatch({ type: 'INCREMENT', message })
+    dispatch({ type: 'LOADING', message })
     setTimeout(() => {
-      dispatch({ type: 'DECREMENT', message })
+      dispatch({ type: 'LOADED' })
     }, 1000)
   }
 }
