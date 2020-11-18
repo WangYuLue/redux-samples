@@ -17,6 +17,6 @@ export default function App() {
     // myAction(store.dispatch);
   }
   return (<div>
-    <button onClick={onClick}>测试1</button>
+    <button onClick={onClick}>测试</button>
   </div>);
 }
